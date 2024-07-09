@@ -30,7 +30,7 @@ python train.py --dataset_path <path_to_data> --train_mode guided-ap --condition
 To evaluate my model, run:
 
 ```eval
-python eval.py --file_name resnet18_cub200_guided-ap_greedy
+python main.py eval --file_name resnet18_cub200_guided-ap_greedy
 ```
 
 `--file_name` is the directory name which is located in `[our_code]\training_data`.

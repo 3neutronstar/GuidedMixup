@@ -25,12 +25,3 @@ python train.py --dataset_path <path_to_data> --train_mode guided-sr --mix_prob 
 ```train
 python train.py --dataset_path <path_to_data> --train_mode guided-ap --condition greedy --mix_prob 0.8 --dataset <dataset_name>
 ```
-## Evaluation
-
-To evaluate my model, run:
-
-```eval
-python main.py eval --file_name resnet18_cub200_guided-ap_greedy
-```
-
-`--file_name` is the directory name which is located in `[our_code]\training_data`.

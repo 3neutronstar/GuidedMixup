@@ -1,0 +1,1 @@
+python main.py train --lr 0.01 --lr_steps 150,225 --weight_decay 0.0005 --nesterov True --epochs 300 --dataset cub200 "$@"
